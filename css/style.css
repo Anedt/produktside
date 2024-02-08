@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(250, 248, 248);
+}
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+main h1 {
+  grid-column: 1/-1;
+}
+
+.productlist main {
+  margin: 140px;
+}
+
+.productlist article {
+  display: flex;
+  margin-bottom: 1 rem;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.subtle {
+  color: grey;
+}
+
+.brandlist {
+  list-style: none;
+}
+
+.smallProduct {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.discounted {
+  border: #ddd;
+}
